@@ -8,7 +8,13 @@ class home_page extends StatelessWidget {
         title: Text("HARIS NADEEM"),
       ),
       body: Center(
-        child: Text("MY NAME IS HARIS NADEEM"),
+        child: Text("MY NAME IS HARIS NADEEM",
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
+          color: Colors.blue,
+          fontSize: 40,
+
+        ),),
       ),
       drawer: Drawer(),
     );
